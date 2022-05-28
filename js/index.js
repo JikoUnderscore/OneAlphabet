@@ -1,4 +1,6 @@
-document.getElementById("input").addEventListener('input', input);
+const area = container.querySelector('textarea')
+
+area.addEventListener('input', input, false);
 
 function input(){
     const text_box_input = document.getElementById("input");
