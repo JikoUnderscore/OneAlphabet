@@ -1,4 +1,4 @@
-input.addEventListener('input', input);
+document.getElementById("input").addEventListener('input', input);
 
 function input(){
     const text_box_input = document.getElementById("input");
