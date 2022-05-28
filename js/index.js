@@ -1,13 +1,12 @@
-const area = container.querySelector('textarea')
+const text_box_input = document.getElementById("input");
+let text_output = document.getElementById("output");
 
-area.addEventListener('input', input, false);
+text_box_input.addEventListener('input', input, false);
 
 function input(){
-    const text_box_input = document.getElementById("input");
 
     const new_text = translation(text_box_input.value);
 
-    let text_output = document.getElementById("output");
 
     text_output.value = new_text;
 
@@ -36,3 +35,4 @@ function translation(word){
 
     return word
 }
+
