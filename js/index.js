@@ -22,7 +22,7 @@ function translation(word){
     word = word.replaceAll("ја", "я");
     word = word.replaceAll("ја", "я");
     word = word.replaceAll("ју", "ю");
-    word = word.replaceAll("шт", "щ");
+    // word = word.replaceAll("шт", "щ");
 
 
     //  bulgarian
@@ -32,6 +32,7 @@ function translation(word){
     word = word.replaceAll("ь", "ј");
     word = word.replaceAll("дз", "ѕ");
     word = word.replaceAll("дж", "џ");
+    word = word.replaceAll("щ", "шт");
 
     return word
 }
