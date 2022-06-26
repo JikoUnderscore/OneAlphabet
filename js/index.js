@@ -28,7 +28,7 @@ function translation(word){
     //  bulgarian
     word = word.replaceAll("кь", "ќ");
     word = word.replaceAll("гь", "ѓ");
-//     word = word.replaceAll("й", "ј");
+    word = word.replaceAll("й", "ј");
     word = word.replaceAll("ь", "ј");
     word = word.replaceAll("дз", "ѕ");
     word = word.replaceAll("дж", "џ");
