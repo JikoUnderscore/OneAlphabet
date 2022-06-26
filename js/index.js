@@ -12,7 +12,7 @@ function input(){
 
 }
 
-
+// Ѥ ѥ
 function translation(word){
     //  macedonian
     word = word.toLowerCase();
@@ -22,18 +22,22 @@ function translation(word){
     word = word.replaceAll("ја", "я");
     word = word.replaceAll("ја", "я");
     word = word.replaceAll("ју", "ю");
-    // word = word.replaceAll("шт", "щ");
+//     word = word.replaceAll("шт", "щ");
 
 
     //  bulgarian
     word = word.replaceAll("кь", "ќ");
     word = word.replaceAll("гь", "ѓ");
-    word = word.replaceAll("й", "ј");
+//     word = word.replaceAll("й", "ј");
     word = word.replaceAll("ь", "ј");
     word = word.replaceAll("дз", "ѕ");
     word = word.replaceAll("дж", "џ");
     word = word.replaceAll("щ", "шт");
-
+    
+    // je
+    word = word.replaceAll("је", "ѥ");
+    word = word.replaceAll("ј", "й");
+    
     return word
 }
 
