@@ -12,7 +12,7 @@ function input(){
 
 }
 
-// Ѥ ѥ
+
 function translation(word){
     //  macedonian
     word = word.toLowerCase();
@@ -34,9 +34,6 @@ function translation(word){
     word = word.replaceAll("дж", "џ");
     word = word.replaceAll("щ", "шт");
     
-    // je
-    word = word.replaceAll("је", "ѥ");
-    word = word.replaceAll("ј", "й");
     
     return word
 }
