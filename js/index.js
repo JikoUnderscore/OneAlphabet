@@ -20,16 +20,15 @@ function translation(word){
     word = word.replaceAll("њ", "нј");
     word = word.replaceAll("љ", "лј");
     word = word.replaceAll("ја", "я");
-    word = word.replaceAll("ја", "я");
     word = word.replaceAll("ју", "ю");
 //     word = word.replaceAll("шт", "щ");
 
 
     //  bulgarian
-    word = word.replaceAll("кь", "ќ");
-    word = word.replaceAll("гь", "ѓ");
     word = word.replaceAll("й", "ј");
     word = word.replaceAll("ь", "ј");
+    word = word.replaceAll("кј", "ќ");
+    word = word.replaceAll("гј", "ѓ");
     word = word.replaceAll("дз", "ѕ");
     word = word.replaceAll("дж", "џ");
     word = word.replaceAll("щ", "шт");
