@@ -1,5 +1,5 @@
 const text_box_input = document.getElementById("input");
-let text_output = document.getElementById("output");
+const text_output = document.getElementById("output");
 
 text_box_input.addEventListener('input', input, false);
 
@@ -12,7 +12,10 @@ function input(){
 
 }
 
-
+/**
+ * @param {string} word
+ * @returns {string}
+ */
 function translation(word){
     //  macedonian
     word = word.toLowerCase();
